@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 40px;
+}
+#search{
+   background-color: yellow; 
+   border-radius: 50%;
+   background-size: 10%;
+   transform: scale(0.6);
+}
+h1 ,h2{
+    text-align: center;
+    font-size: 200%;
+}
+img{
+    width: 15%;
+    height: 55%;
+    margin: 0px;
+    margin-top: 15px ;
+}
+#man_pic{
+    height: 80%;
+    width: 100%;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: space-between;
+    background-color:  rgb(12, 48, 72);
+    padding: 1%;
+}
+.media{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(14, 52, 67);
+    display: flex;
+}
+#ancher{
+    padding-top: 1%;
+}
+a{
+   
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color:rgb(255, 255, 255);
+}
+a:hover{
+    border-bottom: 3px solid yellow;
+}
+h3{
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 100%;
+    color: white;
+}
+#header{
+    display: flex;
+}
+#Creative{
+    font-size: medium;
+    margin-bottom: 5px;
+}
+span{
+    color: yellow;
+}
+#big_font{
+    font-size: 250%;
+    font-weight: bolder;
+    color: white;
+    background-color:  rgb(14, 52, 67);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-weight: bold;
+}
+input{
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    margin: 40px 5px 40px;
+    padding: 6px;
+    display: grid;
+    font-weight: bold;
+    font-size: 100%;
+}
+button{
+    width: 15%;
+    height: 10%;
+    border-radius: 20px;
+    padding: 0px 3px 5px 28px;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: yellow;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+}
+
+
